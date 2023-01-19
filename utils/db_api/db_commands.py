@@ -1,5 +1,5 @@
 from typing import List
-
+from gino import Gino
 from sqlalchemy import and_
 
 from utils.db_api.models import Item
@@ -51,3 +51,4 @@ async def get_items(category_code, subcategory_code) -> List[Item]:
 async def get_item(item_id) -> Item:
     item = await Item.query.where(Item.id == item_id).gino.first()
     return item
+

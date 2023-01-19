@@ -1,5 +1,6 @@
-aiogram
+aiogram~=2.15
 aiohttp
-aioredis
-python-dotenv
-gino
+aioredis~=1.3.1
+python-dotenv~=0.21.0
+gino~=1.0.1
+SQLAlchemy~=1.3.24
