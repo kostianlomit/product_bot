@@ -7,4 +7,4 @@
 - python 3.10; 
 - asyncio / aiohttp / aioredis; 
 - PostgreSQL/gino/SQLAlchemy;
-- dockercompose.
+- docker-compose.
